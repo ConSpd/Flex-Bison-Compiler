@@ -1,0 +1,416 @@
+Line:2
+	Γεγονός
+	(box a going on 1)
+
+Line:3
+	Γεγονός
+	(box b going on 2)
+
+Line:4
+	Γεγονός
+	(box c behind ?x)
+
+Line:5
+	Γεγονός
+	(box ?f spot 2 4 1 ?y)
+
+Line:6
+	Γεγονός
+	(piece ?x ?d 2 4 ?x)
+
+Line:7
+	Γεγονός
+	(at 4)
+
+Line:7
+	Syntax Error
+
+Line:8
+	Γεγονός
+	(hour 4)
+
+Line:9
+	Γεγονός
+	(hour near ?y)
+
+Line:10
+	Syntax Error
+
+Line:11
+	Syntax Error
+
+Line:13
+	WARNING: Unknown Token defacts 	1 character(s) ignored so far
+
+Line:17
+	Ορισμός Γεγονότων
+	(deffacts job
+	(position AI) (money 1200) (Loc athens) (shift 8 hour))
+
+Line:19
+	WARNING: Unknown Token defadacts 	2 character(s) ignored so far
+
+Line:23
+	Ορισμός Γεγονότων
+	(deffacts hobby
+	(type music) (instrument piano guitar cello ?y) (age 17 to 18) (pay 700 on january))
+
+Line:25
+	WARNING: Unknown Token defcsacts
+	3 character(s) ignored so far
+
+Line:26
+	Γεγονός
+	(money good)
+
+Line:27
+	Γεγονός
+	(hour 17 to 18)
+
+Line:27
+	Syntax Error
+
+Line:29
+	Syntax Error
+
+Line:30
+	Γεγονός
+	(white noise)
+
+Line:31
+	Γεγονός
+	(during sleep)
+
+Line:31
+	Syntax Error
+
+Line:34
+	Syntax Error
+
+Line:35
+	Ανάθεση με BIND
+	(bind ?x 5)
+
+Line:36
+	Syntax Error
+
+Line:38
+	Γεγονός
+	(day at 5)
+
+Line:38
+	Syntax Error
+
+Line:41
+	Αριθμητική Πράξη
+	(+ 5 3)
+
+Line:42
+	Αριθμητική Πράξη
+	(/ 80 10)
+
+Line:43
+	Lectical Error: @*&$
+
+Line:43
+	WARNING: Unknown Token @*&$	4 character(s) ignored so far
+
+Line:43
+	Αριθμητική Πράξη
+	(* ?x 20)
+
+Line:44
+	Αριθμητική Πράξη
+	(- ?x ?y ?z 110 ?d 20)
+
+Line:45
+	Αριθμητική Πράξη
+	(+ 32 ?x 1 ?jil ?d)
+
+Line:46
+	Syntax Error
+
+Line:47
+	Lectical Error: 32d
+
+Line:47
+	Syntax Error
+
+Line:48
+	Lectical Error: */
+
+Line:48
+	Syntax Error
+
+Line:49
+	Lectical Error: ++
+
+Line:49
+	Syntax Error
+
+Line:51
+	Αριθμητική Πράξη
+	(+ 1 2)
+
+Line:51
+	Αριθμητική Πράξη
+	(+ 2 3)
+
+Line:51
+	Syntax Error
+
+Line:52
+	Lectical Error: @!
+
+Line:52
+	Syntax Error
+
+Line:53
+	Αριθμητική Πράξη
+	(+ ?2e 4)
+
+Line:54
+	Lectical Error: ?_hi
+
+Line:54
+	Lectical Error: ?’32)
+
+
+Line:54
+	Syntax Error
+
+Line:55
+	Lectical Error: “test”
+
+Line:55
+	Syntax Error
+
+Line:56
+	Αριθμητική Πράξη
+	(* 1 2 3 4 5 6 7)
+
+Line:57
+	Lectical Error: @!@
+
+Line:57
+	WARNING: Unknown Token @!@	5 character(s) ignored so far
+
+Line:57
+	Αριθμητική Πράξη
+	(+ -10 -12)
+
+Line:58
+	Αριθμητική Πράξη
+	(- -1 -2 -3 -4)
+
+Line:59
+	Αριθμητική Πράξη
+	(- ?x +5)
+
+Line:60
+	Αριθμητική Πράξη
+	(+ +1 +2 +3 +4)
+
+Line:61
+	Lectical Error: ?]
+
+Line:61
+	Lectical Error: 09)
+
+
+Line:61
+	Syntax Error
+
+Line:62
+	Αριθμητική Πράξη
+	(* 0 0)
+
+Line:65
+	Ανάθεση με BIND
+	(bind ?x (read))
+
+Line:66
+	Ανάθεση με BIND
+	(bind ?var 15)
+
+Line:67
+	Ανάθεση με BIND
+	(bind ?y (+ 1 2))
+
+Line:68
+	Ανάθεση με BIND
+	(bind ?l (/ ?x ?y ?z))
+
+Line:69
+	Ανάθεση με BIND
+	(bind ?k (+ 15 ?z 24 ?l))
+
+Line:70
+	Ανάθεση με BIND
+	(bind ?x ?y)
+
+Line:71
+	Αριθμητική Πράξη
+	(+ 1 2)
+
+Line:71
+	Syntax Error
+
+Line:72
+	Syntax Error
+
+Line:73
+	Αριθμητική Πράξη
+	(+ 2 3)
+
+Line:73
+	Syntax Error
+
+Line:74
+	Syntax Error
+
+Line:76
+	Syntax Error
+
+Line:77
+	Syntax Error
+
+Line:78
+	Γεγονός
+	(bbind ?x 123)
+
+Line:79
+	Syntax Error
+
+Line:84
+	Syntax Error
+
+Line:85
+	Γεγονός
+	(orange B weight 3)
+
+Line:86
+	Γεγονός
+	(orange C weight 1)
+
+Line:87
+	Έλεγχος με TEST
+	(test (= ?a ?b))
+
+Line:88
+	Syntax Error
+
+Line:89
+	Syntax Error
+
+Line:97
+	Ορισμός Κανόνα
+	(defrule test1
+ 
+	(test (= ?a ?b)) 
+	(money is 365) 
+	(test (= 5 (+ 3 ?x)))
+	->
+	(printout t ("Hey")) (printout t ("Ho")))
+
+Line:103
+	Ορισμός Κανόνα
+	(defrule chess
+ 
+	(piece A on 2) 
+	(piece B on 3)
+	->
+	(printout t (?x "Wins")))
+
+Line:106
+	Syntax Error
+
+Line:107
+	Syntax Error
+
+Line:109
+	WARNING: Unknown Token defule 	6 character(s) ignored so far
+
+Line:109
+	Syntax Error
+
+Line:110
+	Γεγονός
+	(box a on 2)
+
+Line:111
+	Γεγονός
+	(box c on 3)
+
+Line:112
+	Έλεγχος με TEST
+	(test (= 2 3))
+
+Line:113
+	Syntax Error
+
+Line:114
+	Syntax Error
+
+Line:116
+	WARNING: Unknown Token defxrule 	7 character(s) ignored so far
+
+Line:117
+	Syntax Error
+
+Line:118
+	Έλεγχος με TEST
+	(test (= 2 3))
+
+Line:119
+	Syntax Error
+
+Line:120
+	Syntax Error
+
+Line:123
+	WARNING: Unknown Token deffwrule 	8 character(s) ignored so far
+
+Line:126
+	Ορισμός Κανόνα
+	(defrule white
+ 
+	(test (= 2 3))
+	->
+	(printout t ("Hello")))
+
+Line:129
+	Syntax Error
+
+Line:130
+	Γεγονός
+	(white black)
+
+Line:131
+	Syntax Error
+
+Line:132
+	Syntax Error
+
+Line:135
+	Γεγονός
+	(job done)
+
+Line:136
+	Γεγονός
+	(hour 4)
+
+Line:137
+	Γεγονός
+	(mood good)
+
+Line:138
+	Έλεγχος με TEST
+	(test (= ?sun ?down))
+
+Line:139
+	Syntax Error
+
+Line:140
+	Syntax Error
+

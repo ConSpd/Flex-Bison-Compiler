@@ -1,0 +1,140 @@
+;;; Gegonota
+(box a going on 1)
+(box b going on 2)
+(box c behind ?x)
+(box ?f spot 2 4 1 ?y)
+(piece ?x ?d 2 4 ?x)
+(player (at 4) 4)
+(hour 4)
+(hour near ?y)
+(?year 2022)
+(124 days until autumn)
+
+(defacts job
+(position AI)
+(money 1200)
+(Loc athens)
+(shift 8 hour))
+
+(defadacts hobby
+(type music)
+(instrument piano guitar cello ?y)
+(age 17 to 18)
+(pay 700 on january))
+
+(defcsacts
+(money good)
+(hour 17 to 18))
+
+(deffacts "hello"
+(white noise)
+(during sleep))
+
+(deffacts all-types
+(+ 1 2)
+(bind ?x 5)
+("hello")
+;during
+(day at 5))
+
+;;; Arithmitikes Prakseis
+(+ 5 3)
+(/ 80 10)
+(* @*&$ ?x 20)
+(- ?x ?y ?z 110 ?d 20)
+(+ 32 ?x 1 ?jil ?d)
+(+ ?x (32 10) ?x)
+(- ?zw ?s 32d "hello")
+(*/ 1 2 3 4)
+(++ 2 3)
+(/ ?x ?y ;hi)
+(* (+ 1 2) (+ 2 3))
+(* @! 2.3 4.6)
+(+ ?2e 4)
+(+ ?_hi ?’32)
+(- “test” 100)
+(* 1 2 3 4 5 6 7)
+(+ @!@ -10 -12)
+(- -1 -2 -3 -4)
+(- ?x +5)
+(+ +1 +2 +3 +4)
+(* ?] 09)
+(* 0 0)
+
+;;; Diloseis Bind
+(bind ?x (read))
+(bind ?var 15)
+(bind ?y (+ 1 2))
+(bind ?l (/ ?x ?y ?z))
+(bind ?k (+ 15 ?z 24 ?l))
+(bind ?x ?y)
+(bind (+ 1 2) "iajwd")
+(bind ?x "hello")
+(bind ?x (+ 1 2) (+ 2 3))
+(bind ?x (box a on 2))
+(bind ?x ; A comment)
+(bind ?x
+(bbind)
+(bbind ?x 123)
+(bind x 123)
+
+
+;;; Kanones Defrule
+(defrule oranges						
+orange A weight 2)
+(orange B weight 3)
+(orange C weight 1)
+(test (= ?a ?b))
+->
+(printout t ("Biggest orange is") (?o)))
+
+(defrule test1
+(test (= ?a ?b))
+(money is 365)
+(test (= 5 (+ 3 ?x)))
+->
+(printout t ("Hey"))
+(printout t ("Ho")))	
+
+(defrule chess
+(piece A on 2)
+(piece B on 3)
+->       
+(printout t (?x "Wins")))
+
+(defrule cannon
+->
+(printout t ("Hello")))
+
+(defule "black"
+(box a on 2)
+(box c on 3)
+(test (= 2 3))
+->
+(printout t ("It's Wrong")))
+
+(defxrule hi
+(+ 2 3)
+(test (= 2 3))
+->
+(printout t ("hello")))
+
+
+(deffwrule white
+(test (= 2 3))
+->
+(printout t ("Hello")))
+
+(defrule brown
+(bind ?x 5)
+(white black)
+->
+(printout t ("Hello")))
+
+(defru fact 
+(job done)
+(hour 4)
+(mood good)
+(test (= ?sun ?down))
+->
+(printout t ("Im off")))
